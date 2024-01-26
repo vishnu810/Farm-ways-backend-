@@ -17,6 +17,7 @@ Method: POST
 
 Request Body:
 json
+
 {
     "username": "your_username",
     "password": "your_password"
@@ -61,9 +62,6 @@ Method: PUT
 Headers: Authorization: Bearer <access_token>
 Request Body:
 
-json
-C
-
 {
     "title": "New Title",
     "author": "New Author",
@@ -71,6 +69,7 @@ C
     "price": 15.99,
     "quantity": 20
 }
+
 
 Response:
 
@@ -132,6 +131,7 @@ Response:
 Details of the book with the specified ID
 
 json
+
 {
     "id": 1,
     "title": "Book Title",

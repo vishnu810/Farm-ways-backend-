@@ -17,8 +17,6 @@ Method: POST
 
 Request Body:
 json
-
-
 {
     "username": "your_username",
     "password": "your_password"
@@ -104,6 +102,7 @@ JSON array containing details of all books
 json
 
 [
+
     {
         "id": 1,
         "title": "Book Title",

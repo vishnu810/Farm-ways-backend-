@@ -4,6 +4,7 @@ Base URL
 The base URL for all endpoints is: http://127.0.0.1:5000
 
 Authentication
+
 To access protected endpoints, you need to obtain an access token by sending a POST request to the /login endpoint with valid credentials.
 
 Login

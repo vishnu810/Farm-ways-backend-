@@ -19,6 +19,7 @@ Request Body:
 json
 
 {
+
     "username": "your_username",
     "password": "your_password"
 }
@@ -39,6 +40,7 @@ json
 
 
 {
+
     "title": "Book Title",
     "author": "Author Name",
     "isbn": "ISBN Number",
@@ -133,12 +135,14 @@ Details of the book with the specified ID
 json
 
 {
+
     "id": 1,
     "title": "Book Title",
     "author": "Author Name",
     "isbn": "ISBN Number",
     "price": 12.99,
     "quantity": 10
+    
 }
 
 

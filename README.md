@@ -7,7 +7,8 @@ Authentication
 To access protected endpoints, you need to obtain an access token by sending a POST request to the /login endpoint with valid credentials.
 
 Login
-Endpoint: /login
+
+Endpoint: /login.
 Method: POST
 Request Body:
 json

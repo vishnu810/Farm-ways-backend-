@@ -65,11 +65,13 @@ Headers: Authorization: Bearer <access_token>
 Request Body:
 
 {
+
     "title": "New Title",
     "author": "New Author",
     "isbn": "New ISBN",
     "price": 15.99,
     "quantity": 20
+    
 }
 
 

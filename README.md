@@ -11,7 +11,8 @@ Endpoint: /login
 Method: POST
 Request Body:
 json
-Copy code
+
+
 {
     "username": "your_username",
     "password": "your_password"
@@ -25,7 +26,8 @@ Method: POST
 Headers: Authorization: Bearer <access_token>
 Request Body:
 json
-Copy code
+
+
 {
     "title": "Book Title",
     "author": "Author Name",
@@ -33,6 +35,7 @@ Copy code
     "price": 12.99,
     "quantity": 10
 }
+
 Response:
 Status Code:
 201: Book added successfully
@@ -44,7 +47,8 @@ Method: PUT
 Headers: Authorization: Bearer <access_token>
 Request Body:
 json
-Copy code
+C
+
 {
     "title": "New Title",
     "author": "New Author",
@@ -52,6 +56,7 @@ Copy code
     "price": 15.99,
     "quantity": 20
 }
+
 Response:
 Status Code:
 200: Book updated successfully
@@ -70,7 +75,6 @@ Method: GET
 Response:
 JSON array containing details of all books
 json
-Copy code
 [
     {
         "id": 1,
